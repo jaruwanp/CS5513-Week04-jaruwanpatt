@@ -1,0 +1,29 @@
+[
+  { 
+    "name": "Sphere",
+    "email": "tomdev@jsondev.com",
+    "phone": "707-456-1234",
+    "description": "Size: 1.5 diameter , Weight: 1 oz",
+    "img":"sphere.jpg",
+    "price": 500,
+    "id": 6
+  },
+  { 
+    "name": "Owl on Branch",
+    "email": "janejordan@jserver.com",
+    "phone": "707-990-2452",
+    "description": "Size: 3 x 2 , Weight: 2 oz",
+    "img":"owl.jpg",
+    "price": 350,
+    "id": 5
+  },
+  { 
+    "name": "Earrings",
+    "email": "tsfenando@jserver.com",
+    "phone": "800-876-3090",
+    "description": "Size: 2, Weight: 0.2 oz",
+    "img":"earrings.jpg",
+    "price": 30,
+    "id": 7
+  }
+]

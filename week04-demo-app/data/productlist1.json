@@ -1,0 +1,29 @@
+[
+  { 
+    "name": "Jaguar on Rock",
+    "email": "jane@coder.com",
+    "phone": "800-456-1234",
+    "description": "Size: 3 X 3 , Weight: 4.75 Oz",
+    "img":"jaguar.jpg",
+    "price": 750,
+    "id": 1
+  },
+  { 
+    "name": "Iguana on branch",
+    "email": "data@person.com",
+    "phone": "800-123-4567",
+    "description": "Size: 3 x 5 , Weight: 18 oz",
+    "img":"iguana.jpg",
+    "price": 1500,
+    "id": 2
+  },
+  { 
+    "name": "Very Large Raw Amber",
+    "email": "george@scripter.com",
+    "phone": "800-876-3090",
+    "description": "Size: 4.5 x 2 X 3 , Weight: 1 lb 1 oz",
+    "img":"lg_rawamber.jpg",
+    "price": 1000 ,
+    "id": 3
+  }
+]
