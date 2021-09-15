@@ -8,11 +8,11 @@ export default function Layout( { children, home } ) {
         <title>Basic Next.js App - Jaruwan Pattanasing</title>
       </Head>
       <header>
-        <div class="container-fluid page_heder"> Chiapas AMBER </div>
+        <div className="container-fluid page_heder"> Chiapas AMBER </div>
         <img src="images/beads.gif" alt="" className="img-fluid"/>
       </header>
-        <div class="container-fluid nav_bg">
-        <div class="container">
+        <div className="container-fluid nav_bg">
+        <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon"></span>
         </button>

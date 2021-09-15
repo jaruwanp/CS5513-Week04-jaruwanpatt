@@ -10,14 +10,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-  crossorigin="anonymous">
-  </script>
- <script src="../js/jquery-3.5.1.slim.min.js"></script> 
-<script src="../js/bootstrap.min.js"></script> 
-  <script src="https://use.fontawesome.com/574387ee49.js"></script> 
-
       </Head>
       <Component {...pageProps} />
     </>
