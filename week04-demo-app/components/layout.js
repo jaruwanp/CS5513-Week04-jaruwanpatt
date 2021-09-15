@@ -14,25 +14,21 @@ export default function Layout( { children, home } ) {
         <div className="container-fluid nav_bg">
         <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon"></span>
-        </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item"> <a className="nav-link" href="/"> Home </a> </li>
-          <li className="nav-item dropdown active"> <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Catalog </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown"> 
-				
-				<a className="dropdown-item" href="'/'">View All</a> 
-				<a className="dropdown-item" href="/">Catalog Item #1</a>
-				<a className="dropdown-item" href="/">Catalog Item #2</a>
-				
-              <div className="dropdown-divider"></div>
-              <a className="dropdown-item" href="catalog_list.html">Sculpture</a> <a className="dropdown-item" href="catalog_list.html">Jewelry</a> <a className="dropdown-item" href="catalog_list.html">Cabochon & Beads</a> <a className="dropdown-item" href="catalog_list.html">Raw Amber</a> </div>
+          <li className="nav-item"> 
+           <Link href="/">
+           <a>Home&nbsp;&nbsp;</a> 
+           </Link>
+           </li>
+           
+          
+          <li className="nav-item"> 
+          <Link href="/">
+           <a>About Us</a>{ }
+           </Link>
           </li>
-          <li className="nav-item"> <a className="nav-link" title="About Us" href="about_us.html"> About US</a> </li>
-          <li className="nav-item"> <a className="nav-link" title="Contact Us" href="contact_us.html"> Contact Us</a> </li>
-          <li className="nav-item px-0"><a className="nav-link" href="#" title="Follow us on facebook"><i className="fa fa-facebook"></i></a> </li>
-          <li className="nav-item px-0"><a className="nav-link" href="#" title="Follow us on facebook"><i className="fa fa-instagram"></i></a> </li>
+         
         </ul>
         </div>
         </nav>

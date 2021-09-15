@@ -9,9 +9,11 @@ body {
 
 a:link {
   color: #7d7d7d;
+  text-decoration: none;
 }
 a:visited {
   color: #7d7d7d;
+  text-decoration: none;
 }
 a:hover {
   color: #7c4c14;
